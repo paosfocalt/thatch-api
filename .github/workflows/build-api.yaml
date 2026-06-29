@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - "services/api/**"
+      - "**"
   workflow_dispatch:
 
 env:
